@@ -10,18 +10,17 @@ function intergers () {
   second = document.getElementById('answer').value
   first = parseInt(first)
   second = parseInt(second)
-  if(first <0) {
+  if (first < 0) {
     first = first * -1
     positive = positive * -1
   }
-  if(second <0) {
+  if(second < 0) {
     second = second * -1
     positive = positive * -1
   }
-for (first; first>0; first--) {
-  total = total + second
-}
-total = positive * total
-alert (total)
-
+  for (first; first > 0; first--) {
+    total = total + second
+    }
+  total = positive * total
+  alert(total)
 }
