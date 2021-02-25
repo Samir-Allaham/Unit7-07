@@ -14,13 +14,13 @@ function intergers () {
     first = first * -1
     positive = positive * -1
   }
-  if(second < 0) {
+  if (second < 0) {
     second = second * -1
     positive = positive * -1
   }
   for (first; first > 0; first--) {
     total = total + second
-    }
+  }
   total = positive * total
   alert(total)
 }
